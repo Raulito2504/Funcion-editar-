@@ -10,8 +10,8 @@
 <body>
     <h1>Opciones</h1>
     <a href="/asignatura-main/admin/libros/crear.php">Registrar un libro</a>
-    <a href="/asignatura-main/admin/libros/consulta.php">Editar libros</a>
-    <a href="">Eliminar un libro</a>
+    <a href="/asignatura-main/admin/libros/consulta.php">Consulta a libros</a>
+    
     
 </body>
 

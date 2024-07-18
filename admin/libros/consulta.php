@@ -8,6 +8,7 @@ if (mysqli_connect_errno()) {
     header('Location: ../../error_base_de_datos.php');
     exit();
 }
+
 $query = "SELECT * FROM books";
 $resultado = mysqli_query($conexion, $query);
 
@@ -34,6 +35,7 @@ if ($resultado) {
                 <td><img src='{$fila['imagen']}' alt='Imagen' width='100'></td>
                 <td>
                     <a href='editar.php?id={$fila['id']}'>Editar</a>
+                    <a href='eliminar.php?id={$fila['id']}'>Eliminar</a>
                 </td>
               </tr>";
     }
